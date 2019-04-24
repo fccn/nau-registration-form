@@ -7,9 +7,13 @@ class NauUserExtendedForm(ModelForm):
     """
     This form extends the user registration form
     """
-    class Meta(object):
+    class Meta:
         model = NauUserExtendedModel
-        fields = ('data_authorization',)
+        fields = [
+            'data_authorization',
+            'citizen_card',
+            'nif',
+        ]
 
     def __init__(self, *args, **kwargs):
         super(NauUserExtendedForm, self).__init__(*args, **kwargs)

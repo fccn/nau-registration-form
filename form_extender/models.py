@@ -16,3 +16,15 @@ class NauUserExtendedModel(models.Model):
         verbose_name=_("I authorize data processing for this site "),
         default=False
     )
+    citizen_card = models.CharField(
+        verbose_name=_("Citizen Card"),
+        max_length=16,
+        blank=True,
+        null=True
+    )
+    nif = models.CharField(
+        verbose_name=_("NIF"),
+        max_length=9,
+        blank=True,
+        null=True
+    )
