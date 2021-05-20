@@ -1,3 +1,7 @@
+**Archived repository**! 
+
+Its content have been integrated directly on [nau-openedx-extensions](https://github.com/fccn/nau-openedx-extensions).
+
 # nau-registration-form
 This custom registration form extension for Open edX adds required fields for nau registration process
 
